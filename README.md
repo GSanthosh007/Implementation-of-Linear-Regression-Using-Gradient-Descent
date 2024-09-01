@@ -21,15 +21,15 @@ To write a program to predict the profit of a city using the linear regression m
 /*
 Program to implement the linear regression using gradient descent.
 Developed by: Santhosh G
-RegisterNumber:212223240152
+RegisterNumber:212223240152  
 */
 ```
-import numpy as np
-import pandas as pd
-from sklearn.preprocessing import StandardScaler,oneHotEncode
-from sklearn.compose import columnTransformer
+    import numpy as np
+    import pandas as pd
+    from sklearn.preprocessing import StandardScaler,oneHotEncode
+    from sklearn.compose import columnTransformer
 
-def linear_regression (X1, y, learning_rate=0.01, num_iters=1000):
+    def linear_regression (X1, y, learning_rate=0.01, num_iters=1000):
     #Add a column of ones to X for the intercept term 
     x = np.c_[np.ones(len(X1)), X1] 
     # Initialize theta with zeros 
@@ -45,7 +45,7 @@ def linear_regression (X1, y, learning_rate=0.01, num_iters=1000):
     theta -= learning_rate * (1/len(X1)) X.T.dot(errors)
 
 return theta
-   data pd.read_csv('50_Startups.csv',header=None)
+    data pd.read_csv('50_Startups.csv',header=None)
     # Assuming the last column is your target variable 'y' and the preceding columns are your 
     features 'X' X = (data.iloc[1:, :-2].values)
 
