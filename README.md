@@ -22,11 +22,12 @@ To write a program to predict the profit of a city using the linear regression m
 Program to implement the linear regression using gradient descent.
 Developed by: Santhosh G
 RegisterNumber:212223240152
+*/
+```
 ![image](https://github.com/user-attachments/assets/cbe3dcf0-5761-48dd-970b-fd0bf90a28c6)
 ![image](https://github.com/user-attachments/assets/3705b90c-7dd0-493e-8cbf-4d13431d4096)
 
-*/
-```
+
 
 ## Output:
 ![Screenshot 2024-09-01 024604](https://github.com/user-attachments/assets/b04f43f2-86ec-4770-98e0-057ddf2585b2)
