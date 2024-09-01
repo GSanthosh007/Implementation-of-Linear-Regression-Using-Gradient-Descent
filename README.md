@@ -43,8 +43,8 @@ RegisterNumber:212223240152
     errors = (predictions y).reshape(-1,1)
     # Update theta using gradient descent 
     theta -= learning_rate * (1/len(X1)) X.T.dot(errors)
-
-return theta
+    return theta
+    
     data pd.read_csv('50_Startups.csv',header=None)
     # Assuming the last column is your target variable 'y' and the preceding columns are your 
     features 'X' X = (data.iloc[1:, :-2].values)
